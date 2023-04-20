@@ -224,8 +224,24 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .generateContainer{
-  height:20px;
+   display:flex;
+   align-items: center;
    margin-top:15px;
    background: #A4FFAF;
    padding:18px 103px 18px 103px;
+}
+
+.generate{
+  margin-right:15px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #24232C;
+}
+
+.Arrow{
+  margin-top:-3px;
+   width:12px;
+   height:12px;
 }

@@ -1,9 +1,11 @@
 import './App.css'
 import CopyImg from"./assets/images/icon-copy.svg"; 
-import Check from "./assets/images/icon-check.svg"
-
+import Check from "./assets/images/icon-check.svg";
+import Arrow from "./assets/images/icon-arrow-right.svg";
 
 function App() {
+
+    
 
  return ( <div>
            <p className='title'>Password Generator</p>
@@ -56,12 +58,14 @@ function App() {
                       <div className='strongBox'></div>
                    </div>
                </div>
-                   
+                
 
                <div className='generateContainer'> 
-               
+                     <p className='generate'>GENERATE</p>
+                     <img className='Arrow' src={Arrow} alt="" />
               </div>
-
+             
+             
              </div>
            
            
