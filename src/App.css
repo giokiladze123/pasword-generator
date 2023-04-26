@@ -97,7 +97,7 @@ input[type="range"]::-webkit-slider-thumb {
   background: #E6E5EA;
 }
 
-.liderContainer{
+.sliderContainer{
   position: relative;
   margin-top:20px;
 }
@@ -130,12 +130,28 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .firstCheckBox{
+   /* background: #A4FFAF; */
    margin-right:20px;
    width:20px;
    height:20px;
    border: 2px solid #A4FFAF;
 }
 
+.FirstCheck{
+  margin-left:1px;
+}
+
+.secondCheck{
+  margin-left:1px;
+}
+
+.thirdCheck{
+  margin-left:1px;
+}
+
+.fourthCheckbox{
+  margin-left:1px;
+}
 
 .secondCheckBox{
   margin-right:20px;
@@ -244,4 +260,9 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top:-3px;
    width:12px;
    height:12px;
+}
+
+
+.FirstCheck{
+
 }
